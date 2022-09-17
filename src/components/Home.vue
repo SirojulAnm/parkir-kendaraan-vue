@@ -5,7 +5,7 @@
             <p class="col-md-8 fs-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
         </div>
         <div class="container-fluid py-5 col-md-6">
-            <img src="https://assets-global.website-files.com/5f46baf9863467a01b1aaab9/5f479acca51c91168e689008_card-portrait-tiny.png" class="img-circle" alt="Photo" style="width:90%">
+            <img src="./../assets/card-portrait-tiny.png" class="img-circle" alt="Photo" style="width:90%">
         </div>
         <Carousel :items-to-show="3" :wrap-around="true">
             <Slide v-for="item in this.slides" :key="`item-${item}`">
@@ -26,7 +26,7 @@
     import 'vue3-carousel/dist/carousel.css';
 
     export default defineComponent({
-        name: 'home',
+        name: 'Home',
         components: {
             Carousel,
             Slide,
